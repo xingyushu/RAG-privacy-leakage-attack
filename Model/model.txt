@@ -1,0 +1,18 @@
+you should install llama (use the llama github repo) 
+
+and then use huggingface to download the model 
+
+
+
+``
+pip install huggingface_hub
+
+huggingface-cli login
+
+
+huggingface-cli download meta-llama/Llama-2-7b-chat --local-dir Model/llama-2-7b-chat
+huggingface-cli download meta-llama/Llama-2-13b-chat --local-dir Model/llama-2-13b-chat
+
+
+"
+
